@@ -1,0 +1,9 @@
+# GitHub Language Detection Settings (Linguist)
+
+# Include all .sql files in GitHub Linguist language statistics
+# This increases the chances of SQL files being counted in repository language.
+*.sql linguist-detectable=true
+
+# Explicitly specify the language category as SQL for all .sql files
+# Prevent GitHub from classifying them as different languages ​​using other rules
+*.sql linguist-language=SQL
